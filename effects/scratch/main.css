@@ -1,0 +1,50 @@
+* {
+    -webkit-touch-callout: none;
+    /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;
+    /* prevent webkit from resizing text to fit */
+    /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-select: none;
+    /* prevent copy paste, to allow, change 'none' to 'text' */
+    /* -webkit-tap-highlight-color: rgba(0,0,0,0); */
+}
+
+#picture {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    -webkit-box-shadow: 0px 0px 20px 0px #707070;
+    -moz-box-shadow: 0px 0px 20px 0px #707070;
+    box-shadow: 0px 0px 20px 0px #707070;
+}
+#redux {
+    z-index: 2;
+}
+
+/* ------------------------------------------- *\
+	Main
+\* ------------------------------------------- */
+html {
+	background: #DAD8DB;
+  text-align: center;
+}
+body {
+	font: 16px sans-serif;
+	color: #000;
+}
+
+/* ------------------------------------------- *\
+	Background Image
+\* ------------------------------------------- */
+.bg-image {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}

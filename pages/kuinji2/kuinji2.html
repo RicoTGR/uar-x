@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Архип Куїнджі «Схід сонця»</title>
+        <link rel="stylesheet" type="text/css"  href="../../effects/glass/main.css">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="description" content="Webpage for augmented reality">
+        <meta name="author" content="Rysukhina Olena, Dmytro Nesmiian">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="../../libraries/node_modules/jquery/dist/jquery.min.js"><\/script>')</script>
+        <script src="../../libraries/jquery.color-2.1.2.min.js"></script>
+        <script src="../../effects/glass/index.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <video class="bg-image" id="video" autoplay muted loop>
+                <source src="src/animation.mp4" type="video/mp4">
+            </video>
+            <img class="bg-image main animated" id="picture-b" src="src/picture-b.png" alt="">
+            <div class="drawing ui-corner-all animated">
+                 <canvas id="draw-refract"></canvas>
+                 <canvas id="draw-reflect"></canvas>
+                 <canvas id="draw-fractures"></canvas>
+                 <canvas id="draw-mainline"></canvas>
+                 <canvas id="draw-noise"></canvas>
+                 <canvas id="draw-debug" style="display: none;"></canvas>
+                 <div id="draw-picker"></div>
+            </div>
+    </body>
+</html>

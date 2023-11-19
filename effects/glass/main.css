@@ -1,0 +1,40 @@
+/* ------------------------------------------- *\
+	Main
+\* ------------------------------------------- */
+html {
+	background: #DAD8DB;
+  text-align: center;
+}
+body {
+	font: 16px sans-serif;
+	color: #000;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+/* ------------------------------------------- *\
+	Background Image
+\* ------------------------------------------- */
+.bg-image {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+}
+/* ------------------------------------------- *\
+	Drawing
+\* ------------------------------------------- */
+.drawing {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.drawing > * {
+	position: absolute;
+  top: 0;
+  left: 0;
+}

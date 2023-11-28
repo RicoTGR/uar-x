@@ -1,7 +1,7 @@
 (function($){
 
    let counter = 1;
-   let audio = new Audio('src/sound.mp3');
+   let audio = new Audio('../../effects/glass/sound.mp3');
 
     function renderCrackEffectRefract(cvs, img, p1, p2, line)
       {

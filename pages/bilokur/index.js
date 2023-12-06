@@ -2,4 +2,4 @@
 let originalImage = './src/picture-c.jpg';
 
 // Тут картина чорно-біла
-let bwImage = './src/picture-b.png';
+let bwImage = './src/picture-b.jpg';
